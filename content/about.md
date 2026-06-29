@@ -1,12 +1,14 @@
 ---
-title: "About Me"
-layout: "profile"
-outputs: ["html"]
+title: About Me
+layout: profile
+outputs:
+  - html
+date: 2026-06-29
 showTableOfContents: true
 ---
 # Hello, I'm Jhenrick Shen Milan
 
-{{< button href="/resume.pdf" target="_blank" >}} 📥 Download PDF Version {{< /button >}}
+{{< button href="/resume.pdf" target="_blank" >}} Download PDF Version {{< /button >}}
 
 I am a highly independent **Systems Engineer and IT Specialist** with an engineering background and a proven track record of maintaining high-availability, 24/7 production networks. I specialize in enterprise identity governance, cloud administration, automated telemetry tracking, and low-latency broadcast infrastructure. 
 
