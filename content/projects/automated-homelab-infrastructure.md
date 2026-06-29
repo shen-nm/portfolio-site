@@ -67,7 +67,7 @@ X11Forwarding no
 
 ---
 
-## 📦 Core Deployment Blueprint
+## Core Deployment Blueprint
 
 Below is an abstract configuration matrix showing my standardized `docker-compose.yml` blueprint used to spin up network application routing stacks. It implements resource limits and strict non-root user execution environments.
 
