@@ -4,10 +4,12 @@ date: 2026-06-30
 draft: false
 summary: A rundown of the infrastructure of the page which runs on GitHub Actions and Cloudflare Pages
 tags:
-  - Cloudflare_Pages
-  - Github_Actions
-  - Hugo
-  - CI-CD
+  - cloudflare_pages
+  - github_actions
+  - hugo
+  - CI/CD
+  - cloudflare
+  - github
 categories:
   - Infrastructure
 showTableOfContents: true

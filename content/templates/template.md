@@ -1,12 +1,10 @@
 ---
 title: "Subject: Text"
-date: 2026-06-29
+date:
 draft: true
-summary: text
+summary:
 tags:
-  - textenter
 categories:
-  - textenter
 showTableOfContents: false
 ---
 # Title
