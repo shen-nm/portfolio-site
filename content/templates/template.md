@@ -7,6 +7,7 @@ tags:
   - textenter
 categories:
   - textenter
+showTableOfContents: false
 ---
 # Title
 text

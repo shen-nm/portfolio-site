@@ -69,4 +69,4 @@ Whether it's independently resolving high-stakes production incidents during cri
 
 ## Key Highlights & Homelab Philosophy
 
-Outside of my professional engineering commitments, I maintain an active **DevOps Home Lab**. I treat my private server matrix—powered by Proxmox hypervisors, segmented Docker microservices, and automated backup routines—as an R&D sandbox to safely stress-test enterprise configurations before deploying them to live production networks.
+Outside of my professional engineering commitments, I maintain an active **DevOps Home Lab**. I treat my private server matrix (powered by Proxmox hypervisors, segmented Docker microservices, and automated backup routines) as an R&D sandbox to safely stress-test enterprise configurations before deploying them to live production networks.
