@@ -2,7 +2,6 @@ body {
     background-color: transparent;
 }
 
-/* This creates a fixed, permanently blurred background layer */
 body::before {
     content: "";
     position: fixed;
@@ -11,9 +10,11 @@ body::before {
     width: 100vw;
     height: 100vh;
     z-index: -1;
-    background-image: url('/IMAGE.jpg');
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), 
+        url('/IMAGE.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: blur(8px); /* Pure CSS blur applied directly to the image element */
+    filter: blur(8px);
 }
