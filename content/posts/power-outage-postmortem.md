@@ -10,12 +10,12 @@ tags:
   - tailscale
   - cloudflare
 categories:
-  - engineering_logs
+  - Engineering_logs
 showTableOfContents: true
 ---
 ## The Incident
 
-At approximately 14:15 local time, a brief grid failure caused a hard reboot of my primary home-lab node. While the hardware physically survived the power cycle and booted back up cleanly, the public-facing portfolio went completely dark.
+A brief grid failure caused a hard reboot of my primary home-lab node. While the hardware physically survived the power cycle and booted back up cleanly, the public-facing portfolio went completely dark.
 
 Internal routing was functional, but the site was throwing a `502 Bad Gateway` at the edge network.
 
