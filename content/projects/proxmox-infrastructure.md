@@ -16,7 +16,7 @@ categories:
   - Projects
 showTableOfContents: true
 ---
-# The Blueprint & Hardware Specs
+## The Blueprint & Hardware Specs
 
 - Device: HP Slice
 	- Specs:
@@ -26,8 +26,8 @@ showTableOfContents: true
 			- Host OS Drive (pve / root): 67.73 GB
 			- VM/LXC Data Pool (data Thinpool): 151.64 GB
 
-# Virtual Machines vs. Unprivileged LXC Containers
+## Virtual Machines vs. Unprivileged LXC Containers
 
 
-# Networking & Internal Bridge Virtualization
+## Networking & Internal Bridge Virtualization
 
