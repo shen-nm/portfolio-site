@@ -5,7 +5,7 @@ draft: true
 summary:
 tags:
 categories:
-showTableOfContents: false
+showTableOfContents: true
 ---
 # Title
 text

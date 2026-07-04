@@ -12,6 +12,7 @@ tags:
   - github
 categories:
   - Infrastructure
+  - Projects
 showTableOfContents: true
 ---
 ## The Architecture (No FTP Allowed)
