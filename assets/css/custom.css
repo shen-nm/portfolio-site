@@ -18,3 +18,21 @@ body::before {
     background-repeat: no-repeat;
     filter: blur(8px);
 }
+
+/* "About Me" menu link */
+header nav a[href*="about"] {
+    font-size: 1.15rem !important;
+    font-weight: 600 !important;
+    padding: 0.4rem 1rem !important;
+    border: 2px solid var(--color-primary-500, #3b82f6);
+    border-radius: 0.5rem !important;
+    margin-left: 1.5rem !important;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Subtle hover interaction animation */
+header nav a[href*="about"]:hover {
+    background-color: var(--color-primary-500, #3b82f6);
+    color: #ffffff !important;
+    transform: scale(1.05);
+}
