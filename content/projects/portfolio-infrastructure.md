@@ -15,7 +15,7 @@ categories:
   - Projects
 showTableOfContents: true
 ---
-## The Architecture (No FTP Allowed)
+## The Architecture
 
 Most personal portfolios are treated like an afterthought—manually dragging files over SFTP or clicking around a clunky GUI. I wanted this space to treat infrastructure with the same discipline as a production enterprise cluster: immutable, tracked, and completely automated.
 
@@ -25,7 +25,7 @@ Most personal portfolios are treated like an afterthought—manually dragging fi
 
 ---
 
-## Keeping the Workspace Clean (Learning from Mistakes)
+## Keeping the Workspace Clean
 
 When building locally on my Arch laptop, running `hugo server` compiles thousands of temporary static files under `public/` and `resources/`. Early on, I accidentally committed 16,000 lines of generated tracking junk into Git. 
 
