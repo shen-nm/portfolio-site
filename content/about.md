@@ -26,7 +26,7 @@ Whether it's independently resolving high-stakes production incidents during cri
 
 ### **Systems, Virtualization & Automation**
 
-* **Operating Systems:** Linux (Daily Driver), Alpine Linux, Debian, Arch Linux
+* **Operating Systems:** Linux (Daily Driver), Alpine Linux, Debian, Arch Linux, Windows, MacOS
 * **Virtualization/DevOps:** Proxmox VE, Docker, Docker Compose, Unprivileged LXC Containers, Virtual Machines
 * **Scripting & Data:** Bash, Python, SQL Maintenance, Automated Backups & Cron Automation
 * **Hardware & Edge:** Raspberry Pi deployments, low-latency Live Video/Audio Encoding, Broadcast Infrastructure
