@@ -107,6 +107,6 @@ It essentially bridges the gap for me: I get the scrolling tiling layout I love 
 ---
 ## Dotfiles
 
-{{< github repo="shen-nm/dotfiles" showThumbnail=false >}}
+{{< github repo="shen-nm/dotfiles" showThumbnail=true >}}
 
 
