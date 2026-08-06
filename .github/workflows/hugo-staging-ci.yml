@@ -1,0 +1,47 @@
+name: Test Hugo Staging & Auto-Merge
+
+on:
+  push:
+    branches:
+      - staging
+
+jobs:
+  test-hugo-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout staging branch
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build Hugo Site (Dry Run)
+        run: hugo --gc --minify
+
+  auto-merge-to-main:
+    needs: test-hugo-build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Merge staging into main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git fetch origin main:main
+          git checkout main
+          
+          git merge --ff-only origin/staging || git merge origin/staging --no-edit
+          
+          git push origin main
