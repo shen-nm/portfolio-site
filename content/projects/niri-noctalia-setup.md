@@ -13,6 +13,11 @@ categories:
   - Desktop
 showTableOfContents: true
 ---
+## Dotfiles
+
+{{< github repo="shen-nm/dotfiles" showThumbnail=false >}}
+
+---
 ## The Journey Before Settling
 
 Niri paired with Noctalia Shell is my current desktop environment setup, but it certainly wasn't my first. Having spent a good chunk of time experimenting with various DEs (Desktop Environments) and WMs (Window Managers), here is my experience with each along the way.
@@ -62,8 +67,6 @@ Once the cleanup was done, everything clicked. This is the setup I finally settl
   <img src="/gallery/desktop-ov.png" class="grid-w33" />
 {{< /gallery >}}
 
->dotfiles below
-
 My daily driver is **Niri** paired with **Noctalia Shell**. Niri's infinite scrollable tiling manager fits my workflow effortlessly, and Noctalia Shell ties it all together into a sleek, unified desktop. 
 
 Here is how each component is configured:
@@ -103,10 +106,3 @@ Coming from having no shell whatsoever, Noctalia comes ridiculously feature-comp
 What really sold me on it was how painless it is to configure. It actually has its own built-in GUI settings menu, meaning I don't have to hunt down raw config files or tinker with CSS just to change a theme, tweak a widget, or adjust my color palette on the fly. Plus, because it's built on Quickshell, the whole UI feels super snappy and responsive.
 
 It essentially bridges the gap for me: I get the scrolling tiling layout I love from Niri, but with the polished, hassle-free experience of a full desktop environment.
-
----
-## Dotfiles
-
-{{< button href="https://github.com/shen-nm/dotfiles" target="_blank" >}} {{< icon "github" >}} GitHub Repo {{< /button >}}
-
-{{< github repo="shen-nm/dotfiles" showThumbnail=true >}}
