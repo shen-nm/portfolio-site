@@ -109,4 +109,4 @@ It essentially bridges the gap for me: I get the scrolling tiling layout I love 
 
 {{< button href="https://github.com/shen-nm/dotfiles" target="_blank" >}} {{< icon "github" >}} GitHub Repo {{< /button >}}
 
-{{< github repo="nunocoracao/blowfish" showThumbnail=true >}}
+{{< github repo="shen-nm/dotfiles" showThumbnail=true >}}
