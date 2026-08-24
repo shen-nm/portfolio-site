@@ -24,6 +24,7 @@ jobs:
       - name: Build Hugo Site (Dry Run)
         run: hugo --gc --minify
 
+# test comment
   auto-merge-to-main:
     needs: test-hugo-build
     runs-on: ubuntu-latest
