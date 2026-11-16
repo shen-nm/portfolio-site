@@ -18,6 +18,7 @@ title = "Shen Milan"
   bio = "Homelab enthusiast building highly secure infrastructure architectures, networks, and automated pipeline environments."
   links = [
     { github = "https://github.com/shen-nm" },
+    { codeberg = "https://codeberg.org/shenn" },
     { linkedin = "https://www.linkedin.com/in/jhenrick-shen-milan-b7b91a249/" },
   ]
   image = "shenicon.png"
