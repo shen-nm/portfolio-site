@@ -16,7 +16,7 @@ showTableOfContents: true
 ---
 After moving my repositories off GitHub and over to Codeberg, one of the few things I missed was having a quick visual pulse on my daily commit streak right in my bar. Since my desktop runs Niri with [Noctalia Shell](https://github.com/noctalia-dev/noctalia-shell), writing a native Luau plugin seemed like the cleanest way to bring a contribution heatmap into my setup without bolting on an external script or web view.
 
-The result is **[noctalia-codeberg-activity](https://codeberg.org/shenn/noctalia-codeberg-activity)**—a bar widget and popup calendar built against Noctalia's Plugin API (`v43`).
+The result is **[noctalia-codeberg-activity](https://codeberg.org/shenn/noctalia-codeberg-activity)**, a bar widget and popup calendar built against Noctalia's Plugin API (`v43`).
 
 {{< figure src="/gallery/codeberg-activity.png" alt="codeberg activity heatmap"  >}}
 
@@ -24,7 +24,7 @@ The result is **[noctalia-codeberg-activity](https://codeberg.org/shenn/noctalia
 
 Most Git forge widgets assume all of your activity lives on a public profile, or that you're fine leaving a `read:user` API token sitting in your shell config.
 
-For me, the repository I commit to most often is `~/nixos`. A NixOS flake is a complete blueprint of your machine—every installed package, background service, and open firewall port—so keeping that repository private is common sense. At the same time, I didn't want to manage API tokens just to count my own commits.
+For me, the repository I commit to most often is `~/nixos`. A NixOS flake is a complete blueprint of your machine, every installed package, background service, and open firewall port, so keeping that repository private is common sense. At the same time, I didn't want to manage API tokens just to count my own commits.
 
 To solve both, the plugin supports two data sources:
 
@@ -38,7 +38,7 @@ Noctalia plugins are split into a background sync service (`sync.luau`), a bar w
 A few small details made the difference between "third-party box" and native shell UI:
 
 - **Smoked-glass cards:** Instead of an opaque slab with hard divider lines, the default **Frosted cards** style uses translucent `surface/0.78` containers with subtle `outline_variant` borders so it matches the built-in Calendar and system popups. If you prefer the solid look, you can toggle back to **Classic** in the plugin settings.
-- **Dynamic panel height:** Using `height = "content"` lets the popup shrink down to just the heatmap card when you hide the **Today**, **Current streak**, and **Best streak** cards—no dead space left behind.
+- **Dynamic panel height:** Using `height = "content"` lets the popup shrink down to just the heatmap card when you hide the **Today**, **Current streak**, and **Best streak** cards, no dead space left behind.
 - **True square cells:** The 53-week grid renders as `9×9` rounded squares with hover inspection for exact daily commit counts, keeping the popup compact even on smaller displays.
 
 ## Under the Hood
