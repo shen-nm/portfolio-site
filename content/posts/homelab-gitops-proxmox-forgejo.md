@@ -1,7 +1,7 @@
 ---
 title: Push-to-Deploy Homelab Configs on Proxmox with Forgejo Actions
 date: 2026-11-17
-draft: true
+draft: false
 summary: Replacing manual SSH config edits across 12 Proxmox LXCs with a push-to-deploy setup using Codeberg, Forgejo Actions, and pct push.
 tags:
   - proxmox
